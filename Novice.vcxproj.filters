@@ -14,11 +14,41 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="IScene">
+      <UniqueIdentifier>{4a12944a-8e12-4e0b-a9a8-58ad01cc09ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{1d79d488-3c63-4fb7-8de6-422591ea8ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{2f6fd57b-f742-4bc6-8b72-cc220aa44193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClearScene">
+      <UniqueIdentifier>{2aceefd8-34a0-4a80-9b17-3302488f459a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageScene">
+      <UniqueIdentifier>{3b7d3ace-86b8-4a49-9dee-9e7a09225b2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>IScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>ClearScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +132,21 @@
     </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>IScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>ClearScene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
